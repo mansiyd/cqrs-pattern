@@ -1,0 +1,8 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "dynamodb-lambda-elasticache-app"
+resolve_s3 = true
+s3_prefix = "dynamodb-lambda-elasticache-app"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
